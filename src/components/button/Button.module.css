@@ -1,0 +1,24 @@
+.button {
+  width: 255px;
+  height: 50px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.button:hover {
+  opacity: 0.9;
+}
+
+.primary {
+  border: none;
+  background: #ff837a;
+  color: #ffffff;
+}
+
+.secondary {
+  background: transparent;
+  border: 2px solid #345494;
+  color: #345494;
+}

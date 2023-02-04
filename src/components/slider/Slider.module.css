@@ -1,0 +1,49 @@
+.slider {
+  position: relative;
+  height: 600px;
+  width: 445px;
+}
+
+.prevArrow {
+  width: 20px;
+  height: 20px;
+
+  position: absolute;
+  top: calc(50% - 10px);
+  left: 20px;
+  cursor: pointer;
+}
+
+.nextArrow {
+  width: 20px;
+  height: 20px;
+
+  position: absolute;
+  top: calc(50% - 10px);
+  right: 20px;
+  cursor: pointer;
+}
+.bullets {
+  height: 16px;
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  gap: 16px;
+  left: 60px;
+  right: 60px;
+  bottom: 20px;
+  justify-content: center;
+}
+
+.bullet {
+  box-sizing: border-box;
+  height: 16px;
+  width: 16px;
+  border-radius: 50%;
+  background-color: #345494;
+  cursor: pointer;
+}
+.fill {
+  border: 2px solid #345494;
+  background-color: #ffffff;
+}

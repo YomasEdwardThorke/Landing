@@ -1,0 +1,31 @@
+.screenThree {
+  display: flex;
+  flex-direction: row;
+  gap: 120px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding-top: 80px;
+}
+
+.title {
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 49px;
+  color: #000000;
+}
+
+.text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  color: #464646;
+}
+
+.jepa {
+  color: #345494;
+  font-weight: 700;
+}

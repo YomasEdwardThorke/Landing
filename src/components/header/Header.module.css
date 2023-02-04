@@ -1,0 +1,32 @@
+.header {
+  width: 1100px;
+  height: 45px;
+  display: flex;
+  flex-direction: row;
+  padding-top: 22px;
+  margin-bottom: 40px;
+}
+
+.pic {
+  position: relative;
+  padding-right: 838px;
+}
+
+.login {
+  width: 115px;
+  height: 40px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  background: transparent;
+  border: 2px solid #345494;
+  color: #345494;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.login:hover {
+  opacity: 0.9;
+}

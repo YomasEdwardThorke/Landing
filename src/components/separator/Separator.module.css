@@ -1,0 +1,27 @@
+.separator {
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 37px;
+  color: #345494;
+}
+
+.ltr {
+  background: linear-gradient(
+    112.15deg,
+    #f8fafb 0%,
+    rgba(212, 231, 254, 0.5) 136.35%
+  );
+}
+
+.rtl {
+  background: linear-gradient(
+    267.64deg,
+    rgba(158, 190, 241, 0.05) 0.09%,
+    rgba(217, 211, 255, 0.4) 99.89%
+  );
+}

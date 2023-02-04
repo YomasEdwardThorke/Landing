@@ -1,0 +1,44 @@
+.screenFour {
+  position: relative;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding-top: 80px;
+  max-width: 554px;
+  position: relative;
+  z-index: 1;
+}
+
+.title {
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 49px;
+  color: #000000;
+}
+
+.text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  color: #464646;
+}
+
+.jepa {
+  color: #345494;
+  font-weight: 700;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.pic {
+  position: absolute;
+  top: 110px;
+  right: -40px;
+}
